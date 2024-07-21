@@ -6,4 +6,5 @@ const elHeader = document.querySelector(".site-header"),
         elBurgerMenu.addEventListener("click", ()=> {
             elHeader.classList.toggle("nav-open");
         })
+
     }
