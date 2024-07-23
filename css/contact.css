@@ -1,0 +1,87 @@
+@import url("../css/style.css");
+
+.contact {
+    padding-top: 30px;
+    padding-bottom: 93px;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__inner {
+    order: 4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.contact__form {
+    max-width: 575px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+
+.form__label {
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.form__input,.message {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.message {
+    resize: none;
+    padding: 20px 10px;
+}
+
+.contact__btn {
+    width: 100%;
+}
+
+.contact__img {
+    max-width: 570px;
+    width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 62.5em) {
+    .contact__inner {
+        flex-direction: column-reverse;
+    }
+
+    .contact__form {
+        margin-right: 0;
+    }
+
+    .contact__img {
+        margin-bottom: 21px;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .contact {
+        padding-top: 140px;
+    }
+
+    .contact__inner {
+        margin-top: 45px;
+    }
+
+}

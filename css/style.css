@@ -89,6 +89,14 @@ main {
     border-radius: 5px;
 }
 
+.btn-link:hover {
+    opacity: 0.8;
+}
+
+.btn-link:active {
+    opacity: 0.6;
+}
+
 .btn-white {
     background-color: var(--white);
     color: var(--dark);
