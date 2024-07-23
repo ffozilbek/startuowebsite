@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>StartUp || Home</title>
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <title>StartUp</title>
 </head>
 
 <body>
@@ -44,150 +44,86 @@
 
     <!-- SITE MAIN -->
     <main class="main">
-        <!-- SITE HERO -->
-        <div class="site-hero">
-            <div class="container site-hero__container">
-                <div class="site-hero__text-content">
-                    <h1 class="site-hero__heading">Lorem ipsum dolor sit amet consectetur </h1>
-                    <p class="site-hero__welcome">WELCOME</p>
-                    <p class="site-hero__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo
-                        hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus
-                        iste?</p>
-                    <div class="site-hero__btn btn-wrapper">
-                        <a class="btn-link btn-white" href="#">Explore</a>
-                    </div>
-                </div>
-                <picture>
-                    <source media="(max-width: 23.4375em)" srcset="./img/hero-img-mobile.svg">
-                    <img class="site-hero__img" src="./img/hero-img-desktop.svg"
-                        alt="developers team make idea vector image">
-                </picture>
-            </div>
-        </div>
-
-        <!-- SITE CLIENTS SECTION -->
-        <section class="partners">
-            <div class="container partners__container">
-                <h2 class="section__heading">Lorem ipsum dolor</h2>
-                <p class="section__top-text">partners</p>
+        <!-- SITE PORTFOLIO -->
+        <section class="portfolio">
+            <div class="container portfolio__container">
+                <h2 class="section__heading">Portfolio</h2>
+                <p class="section__top-text">works</p>
                 <p class="section__text">Lorem ipsum, dolor sit amet consectetur
                     adipisicing elit.</p>
-                <ul class="partners__logo">
-                    <li class="partners__logo-item">
-                        <img class="partners__logo-img" src="./img/google.svg" alt="google logo" width="153"
-                            height="50">
-                    </li>
-                    <li class="partners__logo-item">
-                        <img class="partners__logo-img" src="./img/microfost.svg" alt="microfost logo" width="211"
-                            height="45">
-                    </li>
-                    <li class="partners__logo-item">
-                        <img class="partners__logo-img" src="./img/airbnb.svg" alt="airbnb logo" width="160"
-                            height="50">
-                    </li>
-                    <li class="partners__logo-item">
-                        <img class="partners__logo-img" src="./img/facebook.svg" alt="facebook logo" width="196.38"
-                            height="38">
-                    </li>
-                    <li class="partners__logo-item">
-                        <img class="partners__logo-img" src="./img/spotify.svg" alt="spotify logo" width="167"
-                            height="50">
-                    </li>
-                </ul>
-                <div class="partners__btn btn-wrapper">
-                    <a class="btn-link btn-dark" href="#">Learn More</a>
-                </div>
-            </div>
-        </section>
 
-        <!-- SITE SERVICES SECTION -->
-        <section class="site-services services">
-            <div class="container site-services__container">
-                <ul class="services__list">
-                    <li class="services__item">
+                <div class="portfolio__grid grid">
+                    <div class="grid__card">
                         <picture>
-                            <source media="(max-width: 62.5em)" srcset="./img/chatting-mobile.svg">
-                            <img class="services__img" src="./img/chatting.svg" alt="chatting">
+                            <source media="(max-width: 48em)"
+                                srcset="./img/landing-page-mobile.jpg 1x, ./img/landing-page-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/landing-page-design.jpg" alt="Landing page design"
+                                srcset="./img/landing-page-design.jpg 1x,./img/landing-page-design@2x.jpg 2x">
                         </picture>
-                        <div class="services__info">
-                            <h3 class="services__title">Lorem ipsum dolor sit amet consectetur </h3>
-                            <p class="services__text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab,
-                                dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
-                            </p>
-                            <div class="btn-wrapper">
-                                <a class="btn-link btn-dark" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="services__item">
+                    </div>
+                    <div class="grid__card">
                         <picture>
-                            <source media="(max-width: 62.5em)" srcset="./img/developer-mobile.svg">
-                            <img class="services__img" src="./img/developer.svg" alt="chatting">
+                            <source media="(max-width: 48em)"
+                                srcset="./img/webdesign-mobile.jpg 1x, ./img/webdesign-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/web-design.jpg" alt="Web design"
+                                srcset="./img/web-design.jpg 1x,./img/web-design@2x.jpg 2x">
                         </picture>
-                        <div class="services__info">
-                            <h3 class="services__title">Lorem ipsum dolor sit amet consectetur </h3>
-                            <p class="services__text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab,
-                                dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
-                            </p>
-                            <div class="btn-wrapper">
-                                <a class="btn-link btn-dark" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                    </div>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)"
+                                srcset="./img/rocketyour-business-mobile.jpg 1x, ./img/rocketyour-business-mobile@2x.jpg 2x">
 
-        <!-- SITE OUR TALENTS SECTION -->
-        <section class="our-talents">
-            <div class="container our-talents__container">
-                <h2 class="section__heading">Our Talents</h2>
-                <p class="section__top-text">team</p>
-                <p class="section__text">Lorem ipsum, dolor sit amet consectetur
-                    Suscipit nemo hic quos, ab,</p>
+                            <img class="grid__img" src="./img/rocketyour-business.jpg" alt="Web design"
+                                srcset="./img/rocketyour-business.jpg 1x,./img/rocketyour-business@2x.jpg 2x">
+                        </picture>
+                    </div>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)"
+                                srcset="./img/shopping-mobile.jpg 1x, ./img/shopping-mobile@2x.jpg 2x">
 
-                <div class="our-talents__cards cards">
-                    <div class="card">
-                        <div class="card__img-wrapper">
-                            <img class="card__img" src="./img/peg.svg" alt="Peg Legge">
-                        </div>
-                        <div class="card__info">
-                            <h3 class="card__name">Peg Legge</h3>
-                            <p class="card__work">CEO</p>
-                        </div>
+                            <img class="grid__img" src="./img/shopping.jpg" alt="Shopping"
+                                srcset="./img/shopping.jpg 1x,./img/shopping@2x.jpg 2x">
+                        </picture>
                     </div>
-                    <div class="card">
-                        <div class="card__img-wrapper">
-                            <img class="card__img" src="./img/richard.svg" alt="Richard Guerra">
-                        </div>
-                        <div class="card__info">
-                            <h3 class="card__name">Richard Guerra</h3>
-                            <p class="card__work">CTO</p>
-                        </div>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)"
+                                srcset="./img/geometric-shapes-mobile.jpg 1x,./img/geometric-shapes-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/geometric-shapes.jpg" alt="Geometric shapes"
+                                srcset="./img/geometric-shapes.jpg 1x,./img/geometric-shapes@2x.jpg 2x">
+                        </picture>
                     </div>
-                    <div class="card">
-                        <div class="card__img-wrapper">
-                            <img class="card__img" src="./img/alexandra.svg" alt="Alexandra Stolz">
-                        </div>
-                        <div class="card__info">
-                            <h3 class="card__name">Alexandra Stolz</h3>
-                            <p class="card__work">DESIGNER</p>
-                        </div>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)"
+                                srcset="./img/trickortreat-mobile.jpg 1x,./img/trickortreat-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/trickortreat.jpg" alt="Landing page design"
+                                srcset="./img/trickortreat.jpg 1x, ./img/trickortreat@2x.jpg 2x">
+                        </picture>
                     </div>
-                    <div class="card">
-                        <div class="card__img-wrapper">
-                            <img class="card__img" src="./img/janet.svg" alt="Janet Bray">
-                        </div>
-                        <div class="card__info">
-                            <h3 class="card__name">Janet Bray</h3>
-                            <p class="card__work">DEVELOPER</p>
-                        </div>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)"
+                                srcset="./img/hallowen-mobile 1x, ./img/hallowen-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/hallowen.jpg" alt="Landing page design"
+                                srcset="./img/hallowen.jpg 1x, ./img/hallowen@2x.jpg 2x">
+                        </picture>
                     </div>
-                </div>
-                <div class="our-talents__btn btn-wrapper">
-                    <a class="btn-link btn-dark" href="#">Learn More</a>
+                    <div class="grid__card">
+                        <picture>
+                            <source media="(max-width: 48em)" srcset="./img/vr-mobile 1x, ./img/vr-mobile@2x.jpg 2x">
+
+                            <img class="grid__img" src="./img/vr.jpg" alt="Landing page design"
+                                srcset="./img/vr.jpg 1x, ./img/vr@2x.jpg 2x">
+                        </picture>
+                    </div>
                 </div>
             </div>
         </section>

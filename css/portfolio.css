@@ -1,0 +1,61 @@
+@import url("../css/style.css");
+
+/* SITE PORTFOLIO */
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.portfolio__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__grid {
+    order: 4;
+    margin-top: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.grid__img {
+    border-radius: 5px;
+    border: 1.5px solid #000;
+}
+
+@media only screen and (max-width: 74.375em) {
+    .portfolio__grid {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .portfolio {
+        padding-top: 140px;
+    }
+
+    .grid__card {
+        max-width: 570px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 23.4375em) {
+
+}
