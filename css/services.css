@@ -1,0 +1,93 @@
+@import url("../css/style.css");
+
+.services {
+    padding-top: 30px;
+    padding-bottom: 135px;
+}
+
+.services__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services__card-list {
+    order: 4;
+    width: 100%;
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__card-item {
+    max-width: 21.25rem;
+    width: 100%;
+    padding: 46px 30px;
+}
+
+.services__card-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card__tariff {
+    font-size: 0.9375rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.card__price {
+    color: rgba(0, 0, 0,0.5);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.price {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bold;
+    margin-right: 9px;
+}
+.card__text {
+    color: rgba(0, 0, 0,0.5);
+    text-align: center;
+    margin-bottom: 52px;
+}
+.card__tariff-info {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 45px;
+}
+.card__tariff-info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.icon {
+    margin-right: 10px;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 62.5em) {
+    .services__card-list {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services__card-item:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .services {
+        padding-top: 140px;
+    }
+
+    .services__card-list {
+        margin-top: 46px;
+    }
+
+}
